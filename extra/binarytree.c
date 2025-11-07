@@ -84,3 +84,87 @@ int main() {
     freeTree(root);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Binary Tree Creation and Display
+// Aim:
+// To generate and display a Binary Tree.
+
+// Theory:
+// A binary tree is a hierarchical structure where each node has at most two children — left and right.
+// It is created using recursion.
+// Types of Binary Trees:
+
+// Full Binary Tree: Every node has 0 or 2 children.
+
+// Complete Binary Tree: All levels except possibly the last are filled.
+
+// Binary Search Tree (BST): Left < Root < Right.
+
+// Algorithm:
+// Start.
+
+// Define a structure with data, left, right.
+
+// Create a function createTree():
+
+// Input data; if -1, return NULL.
+
+// Create node using malloc().
+
+// Recursively call createTree() for left and right subtrees.
+
+// Display tree using traversals (inorder, preorder, postorder).
+
+// Stop.

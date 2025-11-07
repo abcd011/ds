@@ -70,3 +70,105 @@ int main() {
     printf("\n");
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Binary Search
+// Aim:
+// To implement Binary Search on a sorted array.
+
+// Theory:
+// Binary search divides the array into halves repeatedly to locate the target efficiently.
+// There are three standard Depth-First Traversals:
+
+// Inorder (Left, Root, Right) → For BST, gives sorted output.
+
+// Preorder (Root, Left, Right) → Used to copy tree or get prefix expression.
+
+// Postorder (Left, Right, Root) → Used to delete tree or get postfix expression.
+
+
+// Algorithm:
+// Start.
+
+// Input sorted array and key.
+
+// Set low = 0, high = n-1.
+
+// While low <= high:
+
+// mid = (low + high)/2.
+
+// If a[mid] == key, found.
+
+// Else if key < a[mid], high = mid - 1.
+
+// Else low = mid + 1.
+
+// If not found, display message.
+
+// Stop.

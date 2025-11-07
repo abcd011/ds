@@ -84,3 +84,94 @@ int main() {
     }
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 5. Queue using Array
+// Aim:
+// To implement Queue operations (Enqueue, Dequeue, Display) using an array.
+
+// Theory:
+// A Queue is a FIFO (First In, First Out) structure where elements are inserted at the rear and removed from the front.
+// Operations:
+
+// Enqueue: Insert element at rear.
+
+// Dequeue: Remove element from front.
+
+// Display: Print all elements.
+
+// Algorithm:
+// Start.
+
+// Initialize front = -1, rear = -1.
+
+// Enqueue(x):
+
+// If full, display overflow.
+
+// Else if empty, set front = rear = 0.
+
+// Else increment rear and insert x.
+
+// Dequeue():
+
+// If empty, underflow.
+
+// Else remove element from front and increment it.
+
+// If front > rear, reset both to -1.
+
+// Display(): Traverse from front to rear.
+
+// Stop.

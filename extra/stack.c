@@ -60,3 +60,98 @@ int main() {
     }
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aim:
+// To implement Stack operations (Push, Pop, Display) using an array.
+
+// Theory:
+// A Stack is a LIFO (Last In, First Out) structure where insertion and deletion occur at one end (top).
+
+// Algorithm:
+// Start.
+
+// Initialize top = -1.
+
+// Push(x):
+
+// If top == MAX-1, Stack Overflow.
+
+// Else, increment top and set stack[top] = x.
+
+// Pop():
+
+// If top == -1, Stack Underflow.
+
+// Else, display stack[top] and decrement top.
+
+// Display():
+
+// Traverse stack from top to 0.
+
+// Stop.

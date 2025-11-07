@@ -62,3 +62,83 @@ int main() {
     freeList(head);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aim:
+
+// To generate and display a Singly Linked List.
+
+// Theory:
+
+// A singly linked list is a collection of nodes where each node contains data and a pointer to the next node.
+// It allows dynamic memory allocation and easy insertion/deletion.
+
+// Algorithm:
+
+// Start.
+
+// Define a struct Node with data and next pointer.
+
+// Initialize head = NULL.
+
+// For each new element:
+
+// Create a new node using malloc().
+
+// Assign data to it.
+
+// If list is empty, make it head.
+
+// Else traverse to the last node and link the new node.
+
+// Display list by traversing from head until NULL.
+
+// Stop.

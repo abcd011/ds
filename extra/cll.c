@@ -71,3 +71,85 @@ int main() {
     freeList(head);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 3. Circular Linked List (CLL)
+// Aim:
+// To generate and display a Circular Linked List.
+
+// Theory:
+// In a CLL, the last node points to the first node, making a circular structure.
+// It allows continuous traversal.
+
+// Algorithm:
+// Start.
+
+// Define a node with data and next.
+
+// Initialize head = NULL.
+
+// For each insertion:
+
+// Create a new node.
+
+// If list empty, make it head and point next to itself.
+
+// Else traverse to last node (where next == head), insert new node before head, and update next links.
+
+// Traverse from head and print until you reach head again.
+
+// Stop.
